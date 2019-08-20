@@ -207,6 +207,12 @@
                     </div>
                 </div>
                 <div id="reports" class="tab-pane fade">
+                    <br>
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" style="width: 30%" type="search"
+                            placeholder="Search payments" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="button">Search</button>
+                    </form>
                     <div class="card">
                         <h5 class="card-header">
                             <div class="row">
@@ -252,7 +258,7 @@
                                 </div>
                                 <div class="col text-center">
 
-                                   10
+                                    10
                                 </div>
                             </div>
                         </div>
@@ -278,7 +284,7 @@
                                 </div>
                                 <div class="col text-center">
 
-                                   12
+                                    12
                                 </div>
                             </div>
                         </div>
@@ -296,7 +302,7 @@
                                 </div>
                                 <div class="col text-center">
 
-                                   Java fundamentals
+                                    Java fundamentals
                                 </div>
                                 <div class="col text-center">
 
@@ -310,6 +316,51 @@
                         </div>
 
                     </div>
+                    <br>
+                    <form class="form-inline">
+                        <select class="form-control col-4 mr-sm-2" name="timeSlot">
+                            <option>-- Select trainer --</option>
+                            <option>Sam</option>
+                            <option>Eric</option>
+                            <option>John</option>
+
+                        </select>
+                        <button name="" id="" class="btn btn-primary" type="button">Display Reports</button>
+                    </form>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">Username</th>
+                                <th scope="col">Course Name</th>
+                                <th scope="col">Progress(%)</th>
+                                <th scope="col">Cost</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Mike</td>
+                                <td>Spring</td>
+                                <td>25</td>
+                                <td>&#8377;11,250</td>
+                            </tr>
+                            <tr>
+                                <td>Tom</td>
+                                <td>Angular</td>
+                                <td>75</td>
+                                <td>&#8377;33,750</td>
+                            </tr>
+                            <tr>
+                                <td>Joseph</td>
+                                <td>Java</td>
+                                <td>100</td>
+                                <td>&#8377;35,000</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">Total Revenue</td>
+                                <td>&#8377;80,000/-</td>
+                            </tr>
+                        </tbody>
+                    </table>
 
                 </div>
 
