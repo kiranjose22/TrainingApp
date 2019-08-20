@@ -51,13 +51,13 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
                             </div>
-                            <input name="" class="form-control" placeholder="Email address" type="email">
+                            <input id="login-email" name="" class="form-control" placeholder="Email address" type="email">
                         </div>
                         <div class="form-group input-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
                             </div>
-                            <input class="form-control" placeholder="Password" type="password">
+                            <input id="login-pass" class="form-control" placeholder="Password" type="password">
                         </div>
                         <div class="form-group input-group">
                             <div class="input-group-prepend">
@@ -93,6 +93,11 @@
     <script>
         function goto() {
             var x = document.getElementById("type").value;
+            var y = document.getElementById("login-pass").value;
+            if(y == "admin") {
+                window.location.href = "admin-menu.html";
+                return false;
+            }
             if (x == 1) {
                 window.location.href = "user-menu.html";
                 return false;
