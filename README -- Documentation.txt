@@ -20,17 +20,17 @@ For Guest user
 
 For Trainee
 --------------
-Trainee can search for trainings in the landing page and propose training.
-Trainee can view the current trainings under the current training tab.
-Completed training tab consists of details of completion and certificates.
+1.Trainee can search for trainings in the landing page and propose training.
+2.Trainee can view the current trainings under the current training tab.
+3.Completed training tab consists of details of completion and certificates.
 
 For Trainer
 --------------
-Trainer can view current and completed trainings.
-He/she can edit skills that were mentioned during signup.
-They can view/edit their profile.
-Upload a display picture.
-Payments tab show payments that are yet to be withdrawn and previous transactions.
+1.Trainer can view current and completed trainings.
+2.He/she can edit skills that were mentioned during signup.
+3.They can view/edit their profile.
+4.Upload a display picture.
+5.Payments tab show payments that are yet to be withdrawn and previous transactions.
 
 For Admin
 --------------
